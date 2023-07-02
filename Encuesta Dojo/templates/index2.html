@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{url_for('static', filename='css/index.css/')}}">
+    <title>Encuesta Dojo</title>
+</head>
+<body>
+    <div class="resultados">
+        <h3 class="h32">Información Enviada</h3>
+        <p><strong>Nombre:</strong> {{ nombre }}</p>
+        <p><strong>Ubicación dojo:</strong> {{ ubicacion }}</p>
+        <p><strong>Lenguaje favorito:</strong> {{ lenguaje }}</p>
+        <p><strong>Comentario:</strong> {{ comentario }}</p>
+    </div>
+</body>
+</html>
